@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.signUp{
+    width: 540px;
+    height: 960px;
+    left: 690px;
+    top: 118px;
+    
+    background: #FFFFFF;
+    border: 1px solid #AACDFF;
+    box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
+    border-radius: 20px;
+    margin: 50px 50px;
+    display: flex;
+    
+    
+
+}
+
+.main__box{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* margin: 60px 50px; */
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 380px;
+
+
+    
+    
+}
+.title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 47px;
+    margin-bottom: 40px;
+    color: #0068FF;
+
+}
+
+.ifbox{
+   
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;;
+    border-radius: 7px;
+    height: 60px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+    /* identical to box height */
+
+
+    color: #797979;
+
+
+  
+}
+
+.phone__Number__box{
+   /* border: 1px solid red; */
+   display: flex;
+   width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+    
+}
+
+.box2{
+    border: 1px black;
+}
+
+.phone__Number{
+    border: 1px solid black;
+    width: 100px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+    
+    
+ }
+ 
+ .certifi{
+     margin-top: 20px;
+     /* border: 1px solid black; */
+     display: flex; 
+     justify-content: right;
+     
+ }
+
+ .certificationNumber{
+    /* font-weight: 400; */
+    font-size: 18px;
+    line-height: 27px;
+    color: #0068FF;
+    margin-right: 21px;
+    vertical-align: middle;
+    line-height: 36px;
+     
+ }
+
+.certificationBox{
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+    width: 120px;
+    height: 40px;
+     
+ }
+
+ .countdown{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #0068FF;
+    margin-right: 21px;
+    vertical-align: middle;
+    line-height: 36px;
+ }
+
+ .certidn{
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+    width: 120px;
+    height: 40px;
+ }
+
+ .option{
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+    width: 380px;
+    height: 60px;
+    margin-top: 20px;
+ }
+
+
+ .gender{padding: 10px;
+
+
+
+ }
+
+ .genderbox{
+     margin-top: 30px;
+     font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+
+
+ }
+
+ #btn{
+     margin-top: 30px;
+    background: #FFFFFF;
+    border: 1px solid #0068FF;
+    border-radius: 10px;
+    width: 380px;
+    height: 75px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    cursor:pointer;
+
+    text-align: center;
+    color: #0068FF;
+ }
+
+ .hif{
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 300;
+
+ }
+ 

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>game</title>
+    <link href="./styles/game.css" rel="stylesheet">
+    <script>
+         function startword() {
+         //단어를 입력하고 버튼을 누르면
+               const word = document.getElementById("word").innerText
+               const myword = document.getElementById("myword").value
+               
+               const lastword = word[word.length - 1]
+               const firstword = myword[0]
+
+            
+               //firstword와 lastword가 같다면 (끝말잇기를 성공합니다)
+               //result에 innertext를 정답입니다로 변경한다
+               //word 부분에 유저가 입력한 단어를 재할당한다
+               //textbox에 빈 문자열을 할당하여 창을 비워지게 한다
+        // else 
+               //result와 innerText를 '떙!'으로 변경한다
+            //    /textbox에 빈 문자열을 할당하여 창을 비워지게 한다
+
+            if(firstword === lastword){
+                document.getElementById("result").innerText = "정답입니다"
+                document.getElementById("word").innerText = myword
+                document.getElementById("myword").value = ""
+
+            } else {   
+                document.getElementById("result").innerText = "땡!"
+                document.getElementById("word").innerText = myword
+                document.getElementById("myword").value = ""
+
+            }
+
+       
+         }
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper__header">
+            <div class="header__title">
+               <div class="title">GAME</div>
+               <div class="subTitle">TODAY CHOICE</div>
+
+            </div>
+            <div class="divideLine"></div>
+        </div>
+        <div class="game__container">
+            <img src="./images/word.png">
+            <div class="game__title">끝말잇기</div>
+            <div class="game__subTitle">제시어 : <span id="word">코드캠프</span></div>
+            <div class="word__text">
+                <input class="textbox" id="myword" placeholder ="단어를 입력해주세요.">
+                <button class="search" onclick="startword()">입력</button>
+            </div>
+            <div class="word__result" id="result">결과!</div>
+
+        </div>
+        <div class="game__container2">
+            <img class=lotto__img src="./images/lotto.png">
+            <div class="game__title">LOTTO</div>
+            <div class="game__subTitle">버튼을 누르세요</div>
+            <div class="lotto__box">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>5</span>
+                <span>6</span>
+
+
+
+            </div>
+            <div class="word__text">
+                <button class="lotto__btn">Button</button>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</body>
+</html>
+
+<!-- <table 태그?></table> -->

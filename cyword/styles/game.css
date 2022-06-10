@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+
+.wrapper {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper__header{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header__title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title {
+    /* border: 1px solid black; */
+    color: #55b2e4;
+    font-size: 13px;
+    font-weight: 700;
+    
+}
+
+.subTitle {
+    /* border: 1px solid black; */
+    font-size: 8px;
+    padding-left: 5px;
+    
+}
+
+.divideLine {
+    border-bottom: 1px solid gray;
+    margin: 5px 0px;
+    width: 100%;
+    
+}
+
+.game__container {
+      border: 1px solid black;
+      width: 222px;
+      height: 168px;
+      border-radius: 15px;
+      background-color: #f6f6f6;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+}
+
+.game__title {
+    /* border: 1px solid black; */
+    font-size: 15px;
+    font-weight: 900;
+
+}
+.game__subTitle {
+    /* border: 1px solid black; */
+    font-size: 11px;
+    font-weight: 900;
+
+}
+
+.word__text {
+    margin-bottom: -10px;
+     
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+ 
+
+}
+
+.textbox{
+    width: 130px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 11px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+
+.search {
+    width: 38px;
+    height: 24px;
+    font-size: 11px;
+    font-weight: 700;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.word__result {
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    font-size: 11px;
+    font-weight: 700;
+    color: gray;
+}
+
+/* lotto */
+
+.game__container2 {
+    border: 1px solid black;
+    width: 222px;
+    height: 168px;
+    border-radius: 15px;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.game__title{
+    margin-top: -5px;
+    font-size: 11px;
+    
+}
+
+
+.lotto__box{
+    background-color: #ffe400;
+    border-radius: 10px;
+    width: 130px;
+    height: 21px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 14px;
+    width: 700;
+    letter-spacing: 3px;
+    
+    
+}
+
+.lotto__btn{
+    width: 130px;
+    height: 21px;
+    margin: auto;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: 700;
+            
+}
+
+.lotto__btn:active {
+    background-color: 1px;
+    color: white;
+    border: 1px solid white;
+}
+
+.lotto__btn:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid white;
+}
+
+

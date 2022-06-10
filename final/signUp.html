@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+    <title>signUp</title>
+    <link href="/final/signUp.css" rel="stylesheet">
+    <script src="./signUp.js"></script>
+
+</head>
+<body>
+<div class="signUp">
+    <div class="main__box">
+      <div class="title">코드캠프 회원가입</div>
+        <input id="email" type=text placeholder=" 이메일을 입력해주세요" class="ifbox"></input>
+        <input id="name" type=text placeholder=" 이름을 입력해주세요" class="ifbox"></input>
+        <input id="pw1" type=password placeholder=" 비밀번호를 입력해주세요" class="ifbox"></input>
+        <input id="pw2" type=password placeholder=" 비밀번호를 다시 입력해주세요" class="ifbox"></input>
+        <div class="phone__Number__box">
+            <input id="phone1" type=text class="phone__Number" oninput="changefocus1()" maxlength="3"></input>
+            <div class="hif">-</div>
+            <input id="phone2" type=text class="phone__Number" oninput="changefocus2()" maxlength="4"></input>
+            <div class="hif">-</div>
+            <input id="phone3" type=text class="phone__Number" oninput="changefocus3()" maxlength="4"></input>
+        </div>
+
+        
+        <div class="certifi">
+            <div id="auth"class="certificationNumber">000000</div>
+            <button id="auth2" onclick="token()" class="certificationBox">인증번호전송</button>
+        </div>
+        <div class="certifi">
+            <div id="countdown" class="countdown">0:05</div>
+            <button id="finish" class="certidn">인증확인</button>
+        </div>
+        <select class="option">
+            <option>지역을선택하세요.</option>
+            <option>서울</option>
+            <option>경기</option>
+            <option>인천</option>
+          </select>
+
+          <div class="genderbox">
+            <input  type="radio" name="gender"><p1 class="gender">여성</p1>
+            <input  type="radio" name="gender"><p1 class="gender">남성</p1>
+            </div>
+            <hr>
+            <button id="btn" onclick="handleOnClick()" >가입하기 </button>
+                
+       </div>
+
+       
+    </div>
+</body>
+</html>
